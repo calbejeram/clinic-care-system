@@ -9,8 +9,38 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous" />
     <title>Document</title>
+
+    <style>
+      .navbar-brand {
+        padding: 0% 5%;
+      }
+
+      .navbar-brand h4 {
+        color: white;
+        font-size: 150%;
+        padding: 2rem 1rem;
+      }
+
+      .submitbtn {
+        color: white;
+        background-color: #f83358;
+      }
+    </style>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-danger">
+      <div class="container-fluid">
+        <a href="./index.html" class="navbar-brand d-flex">
+          <img
+            src="https://cdn.dribbble.com/users/1672258/screenshots/16046016/media/cf21b329992a17d3f54b04bac6d60a5d.png?compress=1&resize=400x300&vertical=center"
+            alt=""
+            width="120px"
+            height="100px"
+            class="rounded-circle" />
+          <h4>CliniCare</h4>
+        </a>
+      </div>
+    </nav>
     <div class="container p-3">
       <div class="row">
         <div class="col-6">
@@ -65,7 +95,9 @@
             </tbody>
           </table>
         </div>
-        <a href="index.html">Go back to log in page.</a>
+        <a href="index.html" class="submitbtn btn" rol="button"
+          >Go back to log in page.</a
+        >
       </div>
     </div>
 
